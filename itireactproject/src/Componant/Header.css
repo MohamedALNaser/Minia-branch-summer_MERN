@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 20px 0;
+    min-width: 80px;
+    max-width: 120px;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* padding: 0px 50px; */
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+nav ul li a.active {
+    background-color: #607D8B;
+    color: #000;
+}
+
+@media screen and (min-width: 769px) {
+    .logo {}
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        justify-content: space-evenly;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    nav ul {
+        padding: 0px 15px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px 0px;
+    }
+    .logo {
+        display: none;
+    }
+    nav ul {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul {
+        padding: 0px 10px;
+    }
+    nav ul li a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Dreams {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    nav ul {
+        padding: 0px 10px;
+    }
+    nav ul li a {
+        font-size: 12px;
+        padding: 4px 5px;
+    }
+}

@@ -1,0 +1,72 @@
+#dreams {
+    background-color: #1f1f1f;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#dreams .container .content {
+    color: #1f1f1f;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#dreams .content .dream {
+    width: 47%;
+    margin: 20px 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#dreams .content .dream .contentBx {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#dreams .content .dream .contentBx:hover {
+    transform: translateY(-5px);
+}
+
+#dreams .content .dream .contentBx h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#dreams .content .dream .contentBx p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#dreams .content .dream .contentBx .imgBx {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#dreams .content .dream .contentBx .imgBx i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    font-size: 50px;
+    color: #009688;
+    transition: 0.5s;
+}

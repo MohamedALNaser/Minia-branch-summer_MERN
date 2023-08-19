@@ -1,0 +1,57 @@
+#about {
+    background-color: #1f1f1f;
+    /* color: ; */
+}
+
+#about .container,
+#projects .container,
+#dreams .container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.container>h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.container>h2::after {
+    content: "";
+    border: 2px solid #fff;
+    border-radius: 3px;
+    bottom: -5px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: #fff;
+    width: 100%;
+}
+
+.container .content .right {
+    width: 47%;
+}
+
+.container .content .right h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container .content .right p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
