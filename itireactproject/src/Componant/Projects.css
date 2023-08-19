@@ -1,13 +1,16 @@
-#projects {
+#projects,
+#skills {
     color: #000;
     background-color: #009688;
 }
 
-#projects .container>h2 {
+#projects .container>h2,
+#skills .container>h2 {
     color: #1f1f1f;
 }
 
-#projects .container>h2::after {
+#projects .container>h2::after,
+#skills .container>h2::after {
     border: 2px solid #1f1f1f;
 }
 

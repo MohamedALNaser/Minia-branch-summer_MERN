@@ -8,6 +8,7 @@ const Dreams = () => {
       description:
         "To be a leading institution in the field of Information Technology and to produce competent professionals with high ethical values and commitment to the society.",
       img: "https://picsum.photos/150",
+      alt: "Our Vision",
     },
     {
       key: 2,
@@ -15,6 +16,7 @@ const Dreams = () => {
       description:
         "To provide quality education in the field of Information Technology and to produce competent professionals with high ethical values and commitment to the society.",
       img: "https://picsum.photos/150",
+      alt: "Our Mission",
     },
   ];
 
@@ -27,7 +29,7 @@ const Dreams = () => {
             <div className="dream" key={dream.key}>
               <div className="contentBx">
                 <div className="imgBx">
-                  <img src={dream.img} alt="" />
+                  <img src={dream.img} alt={dream.alt} />
                 </div>
                 <h3>{dream.name}</h3>
                 <p>{dream.description}</p>
