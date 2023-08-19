@@ -1,0 +1,191 @@
+#contact {
+    background-color: #1f1f1f
+}
+
+#contact .container {}
+
+#contact .container>h2 {}
+
+#contact .container .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    color: #fff;
+    width: 100%;
+}
+
+#contact .container .content .right {
+    width: 47%;
+}
+
+#contact .container .content .right h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#contact .container .content .right form {
+    width: 100%;
+}
+
+#contact .container .content .right form .field {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contact .container .content .right form .field input,
+#contact .container .content .right form .field textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    resize: none;
+}
+
+#contact .container .content .right form .field input:focus,
+#contact .container .content .right form .field textarea:focus {
+    border-color: #fff;
+}
+
+#contact .container .content .right form .button-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#contact .container .content .right form .button-area button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #1f1f1f;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact .container .content .right form .button-area button:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+#contact .container .content .left {
+    width: 47%;
+}
+
+#contact .container .content .left h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#contact .container .content .left .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+#contact .container .content .left .info .information {
+    /* width: 47%; */
+}
+
+#contact .container .content .left .info img {
+    width: 100%;
+    height: 100%;
+    max-width: 330px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#contact .container .content .left .info .info-content {
+    margin-top: 20px;
+}
+
+#contact .container .content .left .info .info-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#contact .container .content .left .info .info-content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#contact .container .content .left .info .info-content p a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact .container .content .left .info .info-content p a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+    #contact .container .content .right,
+    #contact .container .content .left {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #contact .container .content .left .info {
+        flex-direction: column;
+    }
+    #contact .container .content .left .info .information {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #contact .container .content .left .info img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #contact .container .content .right form .field {
+        margin-bottom: 10px;
+    }
+    #contact .container .content .right form .button-area {
+        justify-content: flex-start;
+    }
+    #contact .container .content .right form .button-area button {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #contact .container .content .right form .field input,
+    #contact .container .content .right form .field textarea {
+        padding: 10px 5px;
+    }
+    #contact .container .content .left .info .info-content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #contact .container .content .left .info .info-content p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #contact .container .content .left .info .info-content p {
+        font-size: 12px;
+    }
+}

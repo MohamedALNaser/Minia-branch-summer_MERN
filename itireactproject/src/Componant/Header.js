@@ -34,13 +34,13 @@ function Header() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#Projects">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="Dreams">
               <a href="#dreams">Dreams</a>
             </li>
             <li>
-              <a href="#Skills">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
